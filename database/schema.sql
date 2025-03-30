@@ -1,6 +1,8 @@
 DROP DATABASE IF EXISTS cyberweapons; 
 CREATE DATABASE cyberweapons CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
+USE cyberweapons;
+
 CREATE TABLE users (
   id INT AUTO_INCREMENT PRIMARY KEY,
   email VARCHAR(255) NOT NULL UNIQUE,
