@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta generator="https://github.com/cyber2025tron/BlackIceCMS">
   <title>Cyber Login</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
