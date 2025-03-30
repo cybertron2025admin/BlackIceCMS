@@ -46,7 +46,7 @@ class WeaponController {
             $filepath = __DIR__ . $decoded->file;
 
 // NEMO (/home/nemo/): Be careful with this, there's a security vulnerability here, especially if someone doesn't change the JWT secret.
-// ..../weapons/download?file=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlIjoiLy4uLy4uLy4uLy4uLy4uLy4uL2V0Yy9wYXNzd2QiLCJmbGFnIjoiQ1lCRVJUT05fRkxBR0FbUGF0aFRyYXZlcnNhbEF0dGFja10iLCJpYXQiOjE3NDMzMjcxNTJ9.r3uZ-J-Crx6zNBdqzk0gZtPoab8_n_qSUsUHA3LgjNc
+// ..../weapons/download?file=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlIjoiLy4uLy4uLy4uLy4uLy4uLy4uL2V0Yy9wYXNzd2QiLCJmbGFnIjoiQ1lCRVJUUk9OX0ZMQUdBW1BhdGhUcmF2ZXJzYWxBdHRhY2tdIiwiaWF0IjoxNzQzMzI3MTUyfQ.iCradswGi1CljeHwiYMXxOWkM_RHEz2P79XT41YyHHE
 // https://gchq.github.io/CyberChef/#recipe=JWT_Sign('kjasdlj','HS256','%7B%22typ%22:%22JWT%22,%22alg%22:%22HS256%22%7D')&input=eyJmaWxlIjoiLy4uLy4uLy4uLy4uLy4uLy4uL2V0Yy9wYXNzd2QifQ
 
             if (file_exists($filepath)) {
